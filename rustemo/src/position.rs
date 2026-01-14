@@ -139,7 +139,7 @@ impl Debug for SourceSpan {
 /// errors during semantic analysis.
 #[derive(Debug, Clone)]
 pub struct ValSpan<T> {
-    value: T,
+    pub value: T,
     pub span: Option<SourceSpan>,
 }
 
